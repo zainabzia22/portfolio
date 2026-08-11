@@ -1,7 +1,7 @@
 // models/Contact.js
 // This defines the "shape" of a contact message stored in MongoDB.
 
-const mongoose = require("mongoose");
+const mongoose= require("mongoose");
 
 const contactSchema = new mongoose.Schema({
   name: {
